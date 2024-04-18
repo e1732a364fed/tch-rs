@@ -484,7 +484,7 @@ fn main() -> anyhow::Result<()> {
             system_info.link("protobuf");
             system_info.link("pthreadpool");
             system_info.link("pytorch_qnnpack");
-            //system_info.link("sleef");
+            system_info.link("sleef");
             system_info.link("tensorpipe");
             system_info.link("tensorpipe_uv");
             system_info.link("XNNPACK");
