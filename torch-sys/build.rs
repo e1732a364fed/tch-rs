@@ -473,8 +473,8 @@ fn main() -> anyhow::Result<()> {
             system_info.link("asmjit");
             system_info.link("clog");
             system_info.link("cpuinfo");
-            system_info.link("dnnl");
-            system_info.link("dnnl_graph");
+            //system_info.link("dnnl");
+            //system_info.link("dnnl_graph");
             system_info.link("fbgemm");
             system_info.link("gloo");
             system_info.link("kineto");
@@ -484,7 +484,7 @@ fn main() -> anyhow::Result<()> {
             system_info.link("protobuf");
             system_info.link("pthreadpool");
             system_info.link("pytorch_qnnpack");
-            system_info.link("sleef");
+            //system_info.link("sleef");
             system_info.link("tensorpipe");
             system_info.link("tensorpipe_uv");
             system_info.link("XNNPACK");
